@@ -1,0 +1,57 @@
+*{
+    margin:0;
+}
+
+/* Style applies to both navigation bars in the page */
+.top-nav-bar ul, .project-nav-bar ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+.top-nav-bar a, .project-nav-bar a{
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+}
+
+/* Style applies to top navigation bar in the page */
+.top-nav-bar ul{
+    background-color:aquamarine;
+}
+
+.top-nav-bar a{
+    color: black;
+}
+
+.top-nav-bar a:hover{
+    background-color: #00ff54;
+}
+
+/* Style applies to project navigation bar in the page */
+.project-nav-bar ul{
+    background-color:rgb(46, 139, 88);
+}
+
+.project-nav-bar a{
+    background-color:rgb(46, 139, 88);
+}
+
+.project-nav-bar a:hover{
+    background-color:rgb(46, 139, 88);
+}
+
+
+
+
+.top-nav-bar li, .project-nav-bar li{
+    float: left;
+}
+
+
+.main-container{
+    background-color: aqua;
+    height: 45vh;
+}
